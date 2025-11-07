@@ -1,0 +1,146 @@
+
+
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>เมนูอาหาร | ครัวคุณยายเจ้าเก่า</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Sarabun:wght@300;400;600&display=swap" rel="stylesheet">
+
+  <style>
+    body {
+      font-family: 'Sarabun', sans-serif;
+      color: #3b3b3b;
+      background-color: #fdfcfb;
+    }
+
+   
+    .hero {
+      background: url("/public/photo/bg.jpg") center/cover no-repeat;
+      height: 60vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      color: white;
+      text-shadow: 0 2px 8px rgba(0,0,0,0.4);
+    }
+
+    .hero h1 {
+      font-size: 3rem;
+      font-weight: 600;
+      letter-spacing: 1px;
+    }
+
+   
+    .menu-section {
+      max-width: 800px;
+      margin: 80px auto;
+      padding: 0 20px;
+    }
+
+    .section-title {
+      font-size: 1.5rem;
+      font-weight: 600;
+      text-transform: uppercase;
+      color: #bfa37c;
+      margin-bottom: 1.5rem;
+      border-bottom: 1px solid #e4d9c3;
+      display: inline-block;
+      padding-bottom: 5px;
+    }
+
+    .menu-item {
+      display: flex;
+      justify-content: space-between;
+      padding: 12px 0;
+      border-bottom: 1px solid #eee;
+    }
+
+    .menu-item .name {
+      font-size: 1.05rem;
+      font-weight: 400;
+    }
+
+    .menu-item .price {
+      font-weight: 300;
+      color: #7a7a7a;
+    }
+
+    .menu-item:hover {
+      background-color: #fffaf3;
+      transition: 0.3s ease;
+    }
+
+    footer {
+      background-color: #f8f9fa;
+      padding: 30px 0;
+      text-align: center;
+      color: #777;
+      font-size: 0.9rem;
+    }
+
+    .navbar {
+      background-color: #fffaf3;
+    }
+  </style>
+</head>
+<body>
+
+  
+<nav class="navbar navbar-expand-lg bg-white shadow-sm fixed-top">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="index.html">ครัวคุณยายเจ้าเก่า</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item"><a class="nav-link active" href="index.html">หน้าแรก</a></li>
+          <li class="nav-item"><a class="nav-link" href="menu.html">เมนูอาหาร</a></li>
+          <li class="nav-item"><a class="nav-link" href="index.html#about">เกี่ยวกับเรา</a></li>
+          <li class="nav-item"><a class="nav-link" href="booking.html">ติดต่อเรา</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  
+  <section class="hero">
+    <h1>เมนูอาหารของเรา</h1>
+  </section>
+
+  
+  <section class="menu-section">
+    <h2 class="section-title">อาหารจานหลัก</h2>
+    <div class="menu-item"><span class="name">ข้าวกะเพราไข่ดาว</span><span class="price">60 บาท</span></div>
+    <div class="menu-item"><span class="name">ผัดไทยกุ้งสด</span><span class="price">70 บาท</span></div>
+    <div class="menu-item"><span class="name">แกงเขียวหวานไก่</span><span class="price">80 บาท</span></div>
+    <div class="menu-item"><span class="name">ต้มยำกุ้ง</span><span class="price">90 บาท</span></div>
+  </section>
+
+  
+  <section class="menu-section">
+    <h2 class="section-title">ของหวาน</h2>
+    <div class="menu-item"><span class="name">ข้าวเหนียวมะม่วง</span><span class="price">50 บาท</span></div>
+    <div class="menu-item"><span class="name">บัวลอยไข่หวาน</span><span class="price">45 บาท</span></div>
+    <div class="menu-item"><span class="name">กล้วยบวชชี</span><span class="price">40 บาท</span></div>
+  </section>
+
+  
+  <section class="menu-section">
+    <h2 class="section-title">เครื่องดื่ม</h2>
+    <div class="menu-item"><span class="name">ชาไทยเย็น</span><span class="price">35 บาท</span></div>
+    <div class="menu-item"><span class="name">กาแฟเย็น</span><span class="price">40 บาท</span></div>
+    <div class="menu-item"><span class="name">น้ำมะนาวโซดา</span><span class="price">30 บาท</span></div>
+  </section>
+
+  
+  <footer>
+    <p>&copy; 2025 ครัวคุณยายเจ้าเก่า | โทร. 090-501-3899</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
